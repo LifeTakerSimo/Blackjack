@@ -43,7 +43,7 @@ function newCard()
 {
     let newCard = getRandomInt(2,11);
     sum+= newCard
-    cards+="," + newCard
+    cards.push(newCard)
     start() ;
 }
 
